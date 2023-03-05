@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Open Sans';
+  background-color: black;
+  border-radius: 25px;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+input[type="text"] {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+button[type="submit"] {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+}
+
+#weather {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+  float: center;
+  width: 100%;
+  text-align: center;
+}
+div {
+  float: center;
+  text-align: center;
+  border-radius: 25px;
+}
+.fa-sun {
+  color: #f1c40f; /* yellow */
+  font-size: 48px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
